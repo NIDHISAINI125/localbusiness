@@ -52,7 +52,7 @@ if(response.statusCode===200){
 res.send("<cenetr><h1>Please check your email</h1></cenetr>");
 }
 else {
-res.send("<cenetr><h1>There was a bug try again or contact the developer</h1></cenetr>")
+res.send("<cenetr><h1>There was a bug please try again or contact the developer</h1></cenetr>")
 }
 response.on("data",function(data){
 JSON.parse(data)
